@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Papéis de Parede</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            /* Fundo claro e limpo para destacar o Glassmorphism */
+            background: linear-gradient(135deg, #eef2f3, #8e9eab);
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        
+        h1 {
+            color: #333;
+            font-weight: 300;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        /* Efeito Glassmorphism modular para cada imagem */
+        .glass-card {
+            width: 100%;
+            max-width: 360px;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 24px;
+            padding: 12px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .glass-card img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 9/16;
+            object-fit: cover;
+            border-radius: 16px;
+            /* Cor de fundo caso a imagem ainda não tenha sido carregada */
+            background-color: rgba(255, 255, 255, 0.5); 
+        }
+
+        .title {
+            margin-top: 12px;
+            margin-bottom: 4px;
+            color: #444;
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Meus Wallpapers</h1>
+
+    <div class="glass-card">
+        <img src="papel1.png" alt="Papel de Parede 1">
+        <div class="title">Lumina</div>
+    </div>
+
+    <div class="glass-card">
+        <img src="papel2.png" alt="Papel de Parede 2">
+        <div class="title">Vortex</div>
+    </div>
+
+    <div class="glass-card">
+        <img src="papel3.png" alt="Papel de Parede 3">
+        <div class="title">Zenith</div>
+    </div>
+
+    <div class="glass-card">
+        <img src="papel4.png" alt="Papel de Parede 4">
+        <div class="title">Nexus</div>
+    </div>
+
+    <div class="glass-card">
+        <img src="papel5.png" alt="Papel de Parede 5">
+        <div class="title">Aura</div>
+    </div>
+
+    <div class="glass-card">
+        <img src="papel6.png" alt="Papel de Parede 6">
+        <div class="title">Orbit</div>
+    </div>
+
+    <div class="glass-card">
+        <img src="papel7.png" alt="Papel de Parede 7">
+        <div class="title">Flux</div>
+    </div>
+
+    <div class="glass-card">
+        <img src="papel8.png" alt="Papel de Parede 8">
+        <div class="title">Echo</div>
+    </div>
+
+    <div class="glass-card">
+        <img src="papel9.png" alt="Papel de Parede 9">
+        <div class="title">Pulse</div>
+    </div>
+
+    <div class="glass-card">
+        <img src="papel10.png" alt="Papel de Parede 10">
+        <div class="title">Nova</div>
+    </div>
+
+</body>
+</html>
+
